@@ -78,9 +78,9 @@ def student_analysis(pred, readiness, risk):
         risk_msg = "High risk — immediate improvement is required to boost your chances."
 
     return f"""
-🔹 Placement Prediction: {placement}
-🔹 Readiness Level: {readiness}
-🔹 Risk Level: {risk}
+ Placement Prediction: {placement}
+ Readiness Level: {readiness}
+ Risk Level: {risk}
 
 Analysis:
 {readiness_msg}
