@@ -82,11 +82,11 @@ def student_analysis(pred, readiness, risk):
 🔹 Readiness Level: {readiness}
 🔹 Risk Level: {risk}
 
-📊 Analysis:
+Analysis:
 {readiness_msg}
 {risk_msg}
 
-💡 Motivation:
+Motivation:
 {motivation}
 """
 
