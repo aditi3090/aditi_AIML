@@ -15,7 +15,7 @@ import joblib
 model = joblib.load("placement_model.pkl")
 
 # title
-st.title("🎓 Student Placement Risk & Readiness Analysis System")
+st.title("Student Placement Risk & Readiness Analysis System")
 
 st.write("Enter student details below:")
 
