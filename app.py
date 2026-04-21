@@ -12,8 +12,8 @@ import pickle
 import numpy as np
 
 # ===== LOAD MODEL =====
-model = pickle.load(open('model.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+model = joblib.load('placement_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 st.title("Student Placement Risk & Readiness Analysis System")
 
