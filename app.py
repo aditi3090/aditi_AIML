@@ -8,9 +8,8 @@ Original file is located at
 """
 
 import streamlit as st
-import pickle
 import numpy as np
-
+import joblib
 # ===== LOAD MODEL =====
 model = joblib.load('placement__model.pkl')
 scaler = joblib.load('scaler.pkl')
